@@ -1,5 +1,5 @@
 import createHttpError from "http-errors";
-import { jwt } from "jsonwebtoken";
+import  jwt  from "jsonwebtoken";
 
 export default async function (req, res, next) {
     if (!req.headers['authorization'])

@@ -8,3 +8,4 @@ export const findUser = async(userId) => {
     }
     return user
 }
+
